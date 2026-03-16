@@ -2,25 +2,25 @@ class SlayPort < Formula
   desc "Kill processes by port. Beautifully."
   homepage "https://slay.fyniti.co.uk"
   license "MIT"
-  version "0.1.4"
+  version "0.2.0"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/hammadxcm/slay/releases/download/v0.1.4/slay-darwin-arm64"
-      sha256 "2c0fbbfe54e912ed33e4b9ea7b337e29ec29e3672bbb997f167bd35ebe5ca6db"
+      url "https://github.com/hammadxcm/slay/releases/download/v0.2.0/slay-darwin-arm64"
+      sha256 "2d9c7223286479b2f32f6ac2ab6b4c9535fb93e5d9d544b1546dc68b941b3f4e"
     else
-      url "https://github.com/hammadxcm/slay/releases/download/v0.1.4/slay-darwin-x64"
-      sha256 "39f78405ed47c9f2b939ee73b0b12760158120f01bdb49e583f98ac97666c6e8"
+      url "https://github.com/hammadxcm/slay/releases/download/v0.2.0/slay-darwin-x64"
+      sha256 "3c70eb6a775fb284f8c1700d59589a7acf6b27aaedb6073f16ee30367de34284"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/hammadxcm/slay/releases/download/v0.1.4/slay-linux-arm64"
-      sha256 "1838729949284ee7bbd644aa0fcb76914b2502eb8d9d899609c4ad17a8e0b796"
+      url "https://github.com/hammadxcm/slay/releases/download/v0.2.0/slay-linux-arm64"
+      sha256 "36c453434f1f7f316a3938fd5a4a10355ed612266233ceb073e05a05359f53ef"
     else
-      url "https://github.com/hammadxcm/slay/releases/download/v0.1.4/slay-linux-x64"
-      sha256 "17087f5e20bc5c4d136f8461eaa100dbcc1a71a4e0d499846871382ab5b85a85"
+      url "https://github.com/hammadxcm/slay/releases/download/v0.2.0/slay-linux-x64"
+      sha256 "e2643209c1260d00e2be64b02dd891316adf62a094c7e19e5b2f117ee513af4b"
     end
   end
 
